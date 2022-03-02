@@ -2,17 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CapsulaScript : MonoBehaviour
+public class capsulaScriptFinal : MonoBehaviour
 {
     public GameObject capsula;
-    public GameObject caja;
-    public GameObject esfera;
+    public GameObject capsula1;
+    public GameObject capsula2;
     public bool esVerdadero;
-    // Update is called once per frame
+
     void FixedUpdate()
     {
-        bool cajaEsVerdadero = caja.GetComponent<CajaScript>().esVerdadero;
-        bool esferaEsVerdadero = esfera.GetComponent<EsferaScript>().esVerdadero;
+        bool cajaEsVerdadero = capsula1.GetComponent<CapsulaScript>().esVerdadero;
+        bool esferaEsVerdadero = capsula2.GetComponent<capsulaScriptOr>().esVerdadero;
         //  Color c = new Color(Random.value, Random.value, Random.value);
         // capsula.GetComponent<MeshRenderer>().material.color = c;
         if (cajaEsVerdadero && esferaEsVerdadero)
@@ -24,7 +24,7 @@ public class CapsulaScript : MonoBehaviour
         {
             capsula.GetComponent<MeshRenderer>().material.color = Color.black;
         }
+
         esVerdadero = cajaEsVerdadero && esferaEsVerdadero;
     }
-
 }
