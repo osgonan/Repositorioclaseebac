@@ -445,22 +445,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   caja: {fileID: 1556797605775919960, guid: a3fdb31a76da0514eb9bc2fb11e5061a, type: 3}
---- !u!114 &1044526369
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1044526366}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08a3f47e0e1642f488b50b66fdbd8e01, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  capsula: {fileID: 1044526366}
-  caja: {fileID: 1203829333}
-  esfera: {fileID: 1530548189}
-  esVerdadero: 0
 --- !u!1 &1145286789 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8167070592482099960, guid: 69b2a72f7aa52d046b2b806f98e244af, type: 3}

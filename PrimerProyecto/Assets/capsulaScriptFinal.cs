@@ -18,7 +18,17 @@ public class capsulaScriptFinal : MonoBehaviour
         if (cajaEsVerdadero && esferaEsVerdadero)
         {
             capsula.GetComponent<MeshRenderer>().material.color = Color.white;
-            Debug.Log("Entro");
+ 
+        }
+        else
+        {
+            capsula.GetComponent<MeshRenderer>().material.color = Color.black;
+        }
+
+        if (cajaEsVerdadero || esferaEsVerdadero)
+        {
+            capsula.GetComponent<MeshRenderer>().material.color = Color.white;
+
         }
         else
         {
