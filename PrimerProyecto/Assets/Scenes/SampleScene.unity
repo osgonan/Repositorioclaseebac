@@ -480,11 +480,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5047fb9ed2d13c440b37c4f6e21e458c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  entero: 0
+  entero: 1
   flotante: 1
-  flotante2: 0
-  flotante3: 0
+  flotante2: 1
+  flotante3: 1
   caracter: 
+  nombre: 
+  enteroOperacion: 0
+  caracterFlotante: 
+  nombrePrimero: 
+  apellidoPaterno: 
+  apellidoMaterno: 
+  listaNombre: []
+  mil1: 1001
+  mil2: 1002
+  oracion: 
+  segundaoracion: 
 --- !u!1 &1530548189 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8829939181906111080, guid: e18442fc4d5de4945ae10d1392a09c2f, type: 3}
