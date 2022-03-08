@@ -468,6 +468,23 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1556797605775919960, guid: a3fdb31a76da0514eb9bc2fb11e5061a, type: 3}
   m_PrefabInstance: {fileID: 4225804135109099024}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1203829334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203829333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5047fb9ed2d13c440b37c4f6e21e458c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entero: 0
+  flotante: 1
+  flotante2: 0
+  flotante3: 0
+  caracter: 
 --- !u!1 &1530548189 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8829939181906111080, guid: e18442fc4d5de4945ae10d1392a09c2f, type: 3}
@@ -783,6 +800,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1203829334, guid: a3fdb31a76da0514eb9bc2fb11e5061a, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1556797605775919960, guid: a3fdb31a76da0514eb9bc2fb11e5061a, type: 3}
       propertyPath: m_Name
       value: Caja
