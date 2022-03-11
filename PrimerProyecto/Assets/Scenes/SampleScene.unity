@@ -293,7 +293,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 886208751}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 08a3f47e0e1642f488b50b66fdbd8e01, type: 3}
   m_Name: 
@@ -423,7 +423,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1044526366}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 61e817d2864fc3d499a954e0397d7ecd, type: 3}
   m_Name: 
@@ -475,7 +475,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1203829333}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5047fb9ed2d13c440b37c4f6e21e458c, type: 3}
   m_Name: 
@@ -501,6 +501,18 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8829939181906111080, guid: e18442fc4d5de4945ae10d1392a09c2f, type: 3}
   m_PrefabInstance: {fileID: 2017714270790196312}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1530548190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530548189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c528f08d954373d47b0c51db88a87c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1530548195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -691,7 +703,7 @@ PrefabInstance:
       objectReference: {fileID: 1530548189}
     - target: {fileID: 1145286794, guid: 69b2a72f7aa52d046b2b806f98e244af, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5727703884882824852, guid: 69b2a72f7aa52d046b2b806f98e244af, type: 3}
       propertyPath: m_RootOrder
@@ -752,7 +764,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1530548190, guid: e18442fc4d5de4945ae10d1392a09c2f, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1378770744464969458, guid: e18442fc4d5de4945ae10d1392a09c2f, type: 3}
       propertyPath: m_RootOrder
